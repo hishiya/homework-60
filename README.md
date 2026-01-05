@@ -1,23 +1,31 @@
-EXPRESS SERVER — HOMEWORK 60
+# 🚀 REST API Server (Express + MVC)
 
-ОПИС ПРОЄКТУ Даний проєкт є навчальним серверним застосунком,
-розробленим з використанням Node.js та Express.js. Метою роботи є
-реалізація REST API відповідно до технічного завдання з використанням
-MVC-підходу.
+Це навчальний REST API сервер, розроблений як частина домашнього завдання. Сервер побудований на **Node.js** та **Express**, використовуючи архітектурний патерн **MVC (Model-View-Controller)**.
 
-  --------------------------------------------------
-  ВИКОРИСТАНІ ТЕХНОЛОГІЇ - Node.js - Express.js -
-  npm або yarn
-  --------------------------------------------------
-  СТРУКТУРА ПРОЄКТУ
+## 🛠 Технологічний стек
 
-  HOMEWORK-60/ │ ├── node_modules/ │ ├── src/ │ ├──
-  controllers/ │ │ ├── articleController.js │ │ └──
-  userController.js │ │ │ ├── routes/ │ │ ├──
-  articleRoutes.js │ │ └── userRoutes.js │ │ │ └──
-  app.js │ ├── .gitignore ├── package.json ├──
-  package-lock.json └── README.txt
-  --------------------------------------------------
+* **Node.js** — середовище виконання JavaScript.
+* **Express.js** — веб-фреймворк.
+* **NPM** — менеджер пакетів.
+
+---
+
+## 📂 Структура проекту
+
+```text
+my-express-server/
+├── node_modules/       # Залежності (не чіпати)
+├── src/
+│   ├── controllers/    # 🧠 Логіка
+│   │   ├── userController.js
+│   │   └── articleController.js
+│   ├── routes/         # 🚦 Маршрути
+│   │   ├── userRoutes.js
+│   │   └── articleRoutes.js
+│   └── app.js          # 🏠 Головний файл
+├── .gitignore          # Налаштування Git
+├── package.json        # Налаштування проекту
+└── README.md           # Цей файл
 
 ЗАПУСК ПРОЄКТУ
 
